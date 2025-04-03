@@ -1,0 +1,14 @@
+Step one:
+0° Load points to database - Check!
+1° Function history download data sentinel GEE of grid - Check!
+2° Download variables meteorologicas ERA 5
+
+Step two:
+3° Transform e identify outliers 
+4° Train models
+4° Test models
+6° Validation models
+
+Step three:
+7° run models and create ndvi.tif
+
