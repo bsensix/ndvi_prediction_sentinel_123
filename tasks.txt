@@ -1,14 +1,18 @@
-Step one:
+Step one: load data
 0° Load points to database - Check!
 1° Function history download data sentinel GEE of grid - Check!
-2° Download variables meteorologicas ERA 5
 
-Step two:
-3° Transform e identify outliers 
-4° Train models
-4° Test models
-6° Validation models
+Step two: train data
+2° exploratory analysis data - Check!
+3° Transform e identify outliers - Check!
+4° Train models - Check!
+4° Test models -  Check!
+6° Validation models - Check!
 
-Step three:
-7° run models and create ndvi.tif
+Step three: run model
+7° script load data incremental
+8° run models and create ndvi.tif
+
+Step four: generate reports
+9º compare actual ndvi with predicted ndvi
 
