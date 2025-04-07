@@ -10,9 +10,12 @@ Step two: train data
 6° Validation models - Check!
 
 Step three: run model
-7° script load data incremental
+7° script predicted and load database - Check!
 8° run models and create ndvi.tif
 
 Step four: generate reports
 9º compare actual ndvi with predicted ndvi
+
+
+Verificar CR e outliers cr!
 
