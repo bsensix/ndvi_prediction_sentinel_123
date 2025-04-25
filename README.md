@@ -4,7 +4,15 @@ Este repositório contém um pipeline completo para a previsão do Índice de Ve
 
 ## Por que usar o NDVI Prediction ?
 
+O NDVI é uma métrica amplamente utilizada para monitorar a saúde da vegetação, identificar padrões de crescimento e avaliar o impacto de condições climáticas. No entanto, a obtenção de dados confiáveis de NDVI pode ser desafiadora devido à presença de nuvens, que frequentemente obscurecem as imagens de satélite, especialmente em regiões tropicais.
 
+Com o NDVI Prediction, é possível superar essa limitação ao prever valores de NDVI diariamente, mesmo em dias nublados. A abordagem combina dados históricos de NDVI e dados de radar (como os do Sentinel-1, que não são afetados por nuvens) para gerar previsões precisas. Isso garante:
+
+- **Cobertura Contínua**: Dados diários de NDVI, independentemente das condições climáticas.
+- **Tomada de Decisão Rápida**: Informações atualizadas para apoiar decisões em agricultura, manejo de recursos naturais e monitoramento ambiental.
+- **Redução de Lacunas**: Preenchimento de períodos sem dados devido à cobertura de nuvens, garantindo séries temporais completas e consistentes.
+
+Essa abordagem é especialmente útil para agricultores, pesquisadores e gestores ambientais que precisam de dados confiáveis e frequentes para planejar ações e responder rapidamente a mudanças no ambiente.
 
 ## Fluxograma do projeto
 
