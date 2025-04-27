@@ -16,7 +16,7 @@ Essa abordagem é especialmente útil para agricultores, pesquisadores e gestore
 
 ## Fluxograma do projeto
 
-![Fluxograma](ndvi_prediction_sentinel_123\fluxograma.png)
+![Fluxograma](fluxograma.png)
 
 ## Estrutura do Repositório
 ### **Step One: Carregamento e Download de Dados**
