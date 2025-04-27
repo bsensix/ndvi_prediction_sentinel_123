@@ -16,7 +16,7 @@ Essa abordagem é especialmente útil para agricultores, pesquisadores e gestore
 
 ## Fluxograma do projeto
 
-
+![alt text](<Sem título-2023-12-04-1708.png>)
 
 ## Estrutura do Repositório
 ### **Step One: Carregamento e Download de Dados**
