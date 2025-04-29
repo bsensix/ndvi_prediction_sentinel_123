@@ -22,16 +22,14 @@ Essa abordagem é especialmente útil para agricultores, pesquisadores e gestore
 ### **Step One: Carregamento e Download de Dados**
 1. **Carregar Pontos no Banco de Dados**: Os pontos de interesse são carregados no banco de dados PostgreSQL.
 2. **Download de Dados Sentinel**: Utiliza a API do Google Earth Engine (GEE) para baixar dados do Sentinel-1 e Sentinel-2.
-3. **Download de Dados Climáticos**: Obtém variáveis climáticas (temperatura, precipitação, etc.) do repositório ERA5.
 
 ### **Step Two: Treinamento do Modelo**
 1. **Análise Exploratória**: Identificação de outliers e análise de distribuição dos dados.
-2. **Treinamento do Modelo**: Um modelo de regressão polinomial é treinado para prever o NDVI com base em variáveis como `cr_s1`, `ndvi_s2_moving_avg` e o dia juliano.
+2. **Treinamento do Modelo**: Um modelo de regressão polinomial é treinado para prever o NDVI com base em variáveis como `cr_s1`, `ndvi_s2_moving_avg` e o `julian_day`.
 
 ### **Step Three: Previsão e Geração de Rasters**
 1. **Geração de Previsões**: O modelo treinado é usado para prever valores de NDVI para cada ponto e data.
 2. **Criação de Rasters**: As previsões são interpoladas espacialmente (IDW) para gerar arquivos raster `.tif`.
 
 ### **Step Four: Relatórios**
-1. **Comparação de NDVI**: Comparação entre valores reais e previstos de NDVI.
-2. **Visualização**: Um dashboard em Power BI é usado para análise visual dos resultados.
+1. **Relatório final**: Analisando os dados finais, identificando os pontos forte e desafios da ideia.
